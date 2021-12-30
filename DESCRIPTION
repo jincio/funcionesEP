@@ -11,3 +11,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Suggests: 
     lubridate
+URL: https://github.com/jincio/funcionesEP
+BugReports: https://github.com/jincio/funcionesEP/issues
