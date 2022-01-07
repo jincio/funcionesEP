@@ -4,12 +4,21 @@
 #' @description A graphic to analyze time evolution of some survey variable
 #'
 #'
-#' @param data {hola}
-#' @param categoria
-#' @param var
-#' @param grupo
-#' @param titulo
+#' @param data {The data to be displayed in this layer}
+#' @param categoria {Ads category.There are two options:
+#'                   If "general", data is conformed by only ads to general audience.
+#'                   If "hombres", data is conformed by only ads to male audience.}
+#' @param var       {The variable to analyze}
+#' @param grupo     {The grouping variable}
+#' @param titulo    {The title of the layer.}
 #'
+#' @usage plotline(
+#' data = survey,
+#' categoria = "general",
+#' var = "ads",
+#' grupo = "proyecto",
+#' titulo = "Title of the graphic"
+#' )
 #'
 #' @return
 #' @export
