@@ -5,11 +5,11 @@
 \title{plotline: A graphic to analyze time evolution}
 \usage{
 plotline(
-data = survey,
+data      = survey,
 categoria = "general",
-var = "ads",
-grupo = "proyecto",
-titulo = "Title of the graphic"
+var       = "ads",
+grupo     = "proyecto",
+titulo    = "Title of the graphic"
 )
 }
 \arguments{

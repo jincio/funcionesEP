@@ -2,16 +2,35 @@
 % Please edit documentation in R/boxplot.R
 \name{boxplot}
 \alias{boxplot}
-\title{boxplot}
+\title{boxplot: A graphic to analyze data distribution}
 \usage{
-boxplot(data, categoria, vary, grupo, titulo)
+boxplot(
+data      = survey,
+categoria = "general",
+vary      = "ads",
+grupo     = "proyecto",
+titulo    = "Title of the graphic"
+)
 }
 \arguments{
-\item{titulo}{}
+\item{data}{{The data to be displayed in this layer}}
+
+\item{categoria}{{Ads category.There are two options:
+If "general", data is conformed by only ads to general audience.
+If "hombres", data is conformed by only ads to male audience.}}
+
+\item{vary}{{The variable to analyze, vertical axis (y)}}
+
+\item{grupo}{{The grouping variable}}
+
+\item{titulo}{{The title of the layer}}
 }
 \value{
 
 }
 \description{
+A graphic to analyze distribution of some survey variable
+}
+\details{
 boxplot
 }
