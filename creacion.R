@@ -1,11 +1,11 @@
-# Cargar librerías --------------------------------------------------------
+#Cargar librerías --------------------------------------------------------
 library(devtools)
 library(roxygen2)
 library(usethis)
 
 create("funcionesEP")
 
-usethis::use_r("boxplot")
+usethis::use_r("plotline")
 devtools::document()
 devtools::check()
 # usethis::use_mit_license()
@@ -26,5 +26,5 @@ library(funcionesEP)
 
 ?funcionesEP::plotline()
 
-funcionesEP::
+
 

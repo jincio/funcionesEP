@@ -1,10 +1,15 @@
 #' plotline
+#' @title plotline: A graphic to analyze time evolution
 #'
-#' @param data
+#' @description A graphic to analyze time evolution of some survey variable
+#'
+#'
+#' @param data {hola}
 #' @param categoria
 #' @param var
 #' @param grupo
 #' @param titulo
+#'
 #'
 #' @return
 #' @export

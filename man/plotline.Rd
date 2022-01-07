@@ -2,16 +2,21 @@
 % Please edit documentation in R/plotline.R
 \name{plotline}
 \alias{plotline}
-\title{plotline}
+\title{plotline: A graphic to analyze time evolution}
 \usage{
 plotline(data, categoria, var, grupo, titulo)
 }
 \arguments{
+\item{data}{{hola}}
+
 \item{titulo}{}
 }
 \value{
 
 }
 \description{
+A graphic to analyze time evolution of some survey variable
+}
+\details{
 plotline
 }
