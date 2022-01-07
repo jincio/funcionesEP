@@ -10,7 +10,8 @@
 #' @export
 #'
 #' @examples
-linea <- function(data, categoria, var, grupo, titulo) {
+
+plotline <- function(data, categoria, var, grupo, titulo) {
   data %>%
     filter(cat == categoria) %>%
     mutate(fecha = as.Date(fecha)) %>%
@@ -33,3 +34,7 @@ linea <- function(data, categoria, var, grupo, titulo) {
                                        hjust=0.5,face="bold",
                                        color="gray48", lineheight=1.5))
 }
+
+
+
+
