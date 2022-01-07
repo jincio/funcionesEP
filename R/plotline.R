@@ -13,11 +13,11 @@
 #' @param titulo    {The title of the layer.}
 #'
 #' @usage plotline(
-#' data = survey,
+#' data      = survey,
 #' categoria = "general",
-#' var = "ads",
-#' grupo = "proyecto",
-#' titulo = "Title of the graphic"
+#' var       = "ads",
+#' grupo     = "proyecto",
+#' titulo    = "Title of the graphic"
 #' )
 #'
 #' @return
