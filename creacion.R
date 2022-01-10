@@ -22,7 +22,7 @@ usethis::use_git()
 
 
 
-?funcionesEP::boxplot()
+funcionesEP::
 
 
 
