@@ -1,7 +1,8 @@
 #' percent_simple
-#' @title percent_simple: a table percentage
 #'
-#' @description Calculate percentages by questions with single answer
+#' @title percent_simple
+#'
+#' @description Calculate percentages by answer simple questions
 #'
 #' @param data     {The data to be displayed}
 #' @param variable {The variable to analyze}
