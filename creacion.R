@@ -5,7 +5,7 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("plotline")
+usethis::use_r("percent_simple")
 devtools::document()
 devtools::check()
 # usethis::use_mit_license()
@@ -22,7 +22,7 @@ usethis::use_git()
 
 
 
-?funcionesEP::plotline()
+?funcionesEP::boxplot()
 
 
 
