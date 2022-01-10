@@ -20,7 +20,7 @@
 #'
 #' @examples
 
-P_simple = function(data,variable,vgrupo=NULL,vreg=NULL){
+percent_simple = function(data,variable,vgrupo=NULL,vreg=NULL){
 
   if(is.null(vgrupo)){
     if(is.null(vreg)){
