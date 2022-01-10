@@ -5,7 +5,7 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("percent_simple")
+usethis::use_r("percent_multiple")
 devtools::document()
 devtools::check()
 # usethis::use_mit_license()
@@ -22,7 +22,7 @@ usethis::use_git()
 
 
 
-funcionesEP::
+funcionesEP::percent_
 
 
 

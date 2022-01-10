@@ -2,7 +2,7 @@
 % Please edit documentation in R/percent_simple.R
 \name{percent_simple}
 \alias{percent_simple}
-\title{percent_simple: a table percentage}
+\title{percent_simple}
 \usage{
 percent_simple(
 data      = data,
@@ -24,7 +24,7 @@ vreg      = NULL
 
 }
 \description{
-Calculate percentages by questions with single answer
+Calculate percentages by answer simple questions
 }
 \details{
 percent_simple
