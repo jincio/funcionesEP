@@ -2,7 +2,7 @@
 #'
 #' @title trimmer
 #'
-#' @description Adds '\n' after an group of specified characthers
+#' @description Adds "/n" after an group of specified characthers
 #'
 #' @param x           {column or variable}
 #' @param break_limit {number of characters to split the text}

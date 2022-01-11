@@ -22,7 +22,7 @@ usethis::use_git()
 
 
 
-?funcionesEP::percent_multiple()
+?funcionesEP::trimmer()
 
 
 

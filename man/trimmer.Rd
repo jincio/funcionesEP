@@ -18,7 +18,7 @@ break_limit  = 10
 
 }
 \description{
-Adds '\n' after an group of specified characthers
+Adds "/n" after an group of specified characthers
 }
 \details{
 trimmer
