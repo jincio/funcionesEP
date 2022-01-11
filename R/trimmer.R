@@ -8,7 +8,7 @@
 #' @param break_limit {number of characters to split the text}
 #'
 #' @usage trimmer(x = data$column,
-#'        break_limit  = 10)
+#'         break_limit  = 10)
 #'
 #' @return
 #' @export

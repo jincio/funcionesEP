@@ -5,7 +5,7 @@
 \title{trimmer}
 \usage{
 trimmer(x = data$column,
-       break_limit  = 10)
+        break_limit  = 10)
 }
 \arguments{
 \item{x}{{column or variable}}
