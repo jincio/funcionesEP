@@ -4,7 +4,14 @@
 \alias{plotBar}
 \title{plotBar}
 \usage{
-plotBar(data, vx, vy = Porc, titulo, grupo = NULL, flip = FALSE)
+plotBar(
+data      = survey,
+vx        = survey$variable1,
+vy        = survey$variable2,
+titulo    = "Title of the graphic",
+grupo     = NULL,
+filp      = FALSE
+)
 }
 \arguments{
 \item{data}{{The data to be displayed in this layer}}

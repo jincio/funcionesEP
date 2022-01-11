@@ -11,6 +11,16 @@
 #' @param grupo  {The grouping variable}
 #' @param flip   {The orientation of the layer}
 #'
+#' @usage plotBar(
+#' data      = survey,
+#' vx        = survey$variable1,
+#' vy        = survey$variable2,
+#' titulo    = "Title of the graphic",
+#' grupo     = NULL,
+#' filp      = FALSE
+#' )
+#'
+#'
 #' @return
 #' @export
 #'
