@@ -5,8 +5,8 @@
 \title{trimmer}
 \usage{
 trimmer(
-x            = data$column,
-break_limit  = 10
+#' x            = data$column,
+#' break_limit  = 10
 )
 }
 \arguments{
