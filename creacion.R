@@ -5,9 +5,9 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("percent_multiple")
+usethis::use_r("trimmer")
 devtools::document()
-devtools::check()
+# devtools::check()
 # usethis::use_mit_license()
 usethis::use_package("tidyverse", "Suggests")
 
@@ -22,7 +22,7 @@ usethis::use_git()
 
 
 
-funcionesEP::percent_
+?funcionesEP::percent_multiple()
 
 
 

@@ -7,7 +7,7 @@
 #' @param data     {The data to be displayed}
 #' @param variable {The variable to analyze}
 #'
-#' @usage percent_simple(
+#' @usage percent_multiple(
 #' data      = data,
 #' variable  = data$variable
 #' )

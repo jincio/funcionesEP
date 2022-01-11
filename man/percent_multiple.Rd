@@ -4,7 +4,7 @@
 \alias{percent_multiple}
 \title{percent_multiple}
 \usage{
-percent_simple(
+percent_multiple(
 data      = data,
 variable  = data$variable
 )
