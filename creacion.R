@@ -5,7 +5,7 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("trimmer")
+usethis::use_r("percent_matrix")
 devtools::document()
 # devtools::check()
 # usethis::use_mit_license()
