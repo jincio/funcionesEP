@@ -5,7 +5,7 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("percent_matrix")
+usethis::use_r("plotBar")
 devtools::document()
 # devtools::check()
 # usethis::use_mit_license()
@@ -22,7 +22,7 @@ usethis::use_git()
 
 
 
-?funcionesEP::trimmer()
+?funcionesEP::percent_matrix()
 
 
 

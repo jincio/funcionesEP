@@ -5,7 +5,7 @@
 #' @description A graphic to analyze distribution of some survey variable
 #'
 #'
-#' @param data {The data to be displayed in this layer}
+#' @param data      {The data to be displayed in this layer}
 #' @param categoria {Ads category.There are two options:
 #'                   If "general", data is conformed by only ads to general audience.
 #'                   If "hombres", data is conformed by only ads to male audience.}
