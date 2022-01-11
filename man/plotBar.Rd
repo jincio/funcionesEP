@@ -30,7 +30,7 @@ filp      = FALSE
 
 }
 \description{
-A graphic to visualize frequency of answers
+A graphic to visualize frequency of answers. In adittion, sorts elements by frecuency
 }
 \details{
 plotBar

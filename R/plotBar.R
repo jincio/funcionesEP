@@ -2,7 +2,7 @@
 #'
 #' @title plotBar
 #'
-#' @description A graphic to visualize frequency of answers
+#' @description A graphic to visualize frequency of answers. In adittion, sorts elements by frecuency
 #'
 #' @param data   {The data to be displayed in this layer}
 #' @param vx     {Variable in x axis}
