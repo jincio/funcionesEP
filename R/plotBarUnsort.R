@@ -2,7 +2,7 @@
 #'
 #' @title plotBarUnsort
 #'
-#' @description A graphic to visualize frequency of answers, but it does not sorts elements by frecuency
+#' @description A graphic to visualize frequency of answers, but it does not sort elements by frecuency
 #'
 #' @param data   {The data to be displayed in this layer}
 #' @param vx     {Variable in x axis}

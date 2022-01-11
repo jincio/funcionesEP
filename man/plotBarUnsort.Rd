@@ -30,7 +30,7 @@ filp      = FALSE
 
 }
 \description{
-A graphic to visualize frequency of answers, but it does not sorts elements by frecuency
+A graphic to visualize frequency of answers, but it does not sort elements by frecuency
 }
 \details{
 plotBarUnsort
