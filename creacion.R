@@ -5,7 +5,7 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("plotBar")
+usethis::use_r("plotBarUnsort")
 devtools::document()
 # devtools::check()
 # usethis::use_mit_license()
