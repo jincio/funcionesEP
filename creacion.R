@@ -1,11 +1,13 @@
 library(devtools)
 library(roxygen2)
 library(usethis)
+
+#devtools::install_github("jincio/funcionesEP")
 library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("plotBarUnsort")
+usethis::use_r("plotBarStacked")
 devtools::document()
 # devtools::check()
 # usethis::use_mit_license()
