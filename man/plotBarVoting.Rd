@@ -24,7 +24,7 @@ titulo    = "Title of the graphic",
 
 }
 \description{
-A graphic to visualize voting intention
+A graphic to visualize voting intention. Shows a barplot with names by political candidates and political parties
 }
 \details{
 plotBarVoting

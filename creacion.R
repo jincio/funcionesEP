@@ -24,7 +24,7 @@ usethis::use_git()
 
 
 
-?funcionesEP::plotBarStacked()
+?funcionesEP::plotBarVoting()
 
 
 

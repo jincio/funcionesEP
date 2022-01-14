@@ -2,7 +2,7 @@
 #'
 #' @title plotBarVoting
 #'
-#' @description A graphic to visualize voting intention
+#' @description A graphic to visualize voting intention. Shows a barplot with names by political candidates and political parties
 #'
 #' @param data   {The voting data to be displayed in this layer}
 #' @param vx     {Variable in x axis}
