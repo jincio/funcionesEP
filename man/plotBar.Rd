@@ -7,7 +7,7 @@
 plotBar(
 data      = survey,
 vx        = survey$variable1,
-vy        = survey$variable2,
+vy        = survey$Porc,
 titulo    = "Title of the graphic",
 grupo     = NULL,
 filp      = FALSE
@@ -16,9 +16,9 @@ filp      = FALSE
 \arguments{
 \item{data}{{The data to be displayed in this layer}}
 
-\item{vx}{{Variable in x axis}}
+\item{vx}{{Variable in x axis. Type variable: character}}
 
-\item{vy}{{Variable in y axis}}
+\item{vy}{{Variable in y axis. Contains the proportions from vx}}
 
 \item{titulo}{{The title of the layer}}
 

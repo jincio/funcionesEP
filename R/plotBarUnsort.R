@@ -5,8 +5,8 @@
 #' @description A graphic to visualize frequency of answers, but it does not sort elements by frecuency
 #'
 #' @param data   {The data to be displayed in this layer}
-#' @param vx     {Variable in x axis}
-#' @param vy     {Variable in y axis}
+#' @param vx     {Variable in x axis. Type variable: character}
+#' @param vy     {Variable in y axis. Contains the proportions from vx}
 #' @param titulo {The title of the layer}
 #' @param grupo  {The grouping variable}
 #' @param flip   {The orientation of the layer}
@@ -14,7 +14,7 @@
 #' @usage plotBar(
 #' data      = survey,
 #' vx        = survey$variable1,
-#' vy        = survey$variable2,
+#' vy        = survey$Porc,
 #' titulo    = "Title of the graphic",
 #' grupo     = NULL,
 #' filp      = FALSE

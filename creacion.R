@@ -23,8 +23,24 @@ usethis::use_git()
 #devtools::ins
 
 
+?funcionesEP::plotBar()
 
-?funcionesEP::plotBarVoting()
+library(tidyverse)
+library(datos)
+pinguinos
+
+data <- pinguinos %>%
+  count(isla) %>%
+  mutate(Porc = n/sum(n)*100) %>%
+  mutate(Porc = round(Porc,2))
+
+plotBar(data = data ,
+        vx = data$isla,
+        vy = data$Porc,
+        titulo = "prueba",
+        flip = T)
+
+
 
 
 
