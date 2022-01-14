@@ -5,8 +5,8 @@
 #' @description A graphic to visualize frequency of answers in a stacked format
 #'
 #' @param data   {The data to be displayed in this layer}
-#' @param vx     {Variable in x axis}
-#' @param vy     {Variable in y axis}
+#' @param vx     {Variable in x axis. Type variable: character}
+#' @param vy     {Variable in y axis. Contains the proportions from vx}
 #' @param titulo {The title of the layer}
 #' @param grupo  {The grouping variable}
 #' @param flip   {The orientation of the layer}
@@ -16,7 +16,7 @@
 #' vx        = survey$variable1,
 #' vy        = survey$variable2,
 #' titulo    = "Title of the graphic",
-#' grupo     = NULL,
+#' grupo     = survey$group,
 #' filp      = FALSE
 #' )
 #'

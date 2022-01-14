@@ -40,7 +40,16 @@ plotBar(data = data ,
         titulo = "prueba",
         flip = T)
 
+plotBarUnsort(data = data ,
+              vx = data$isla,
+              vy = data$Porc,
+              titulo = "prueba",
+              flip = T)
 
-
-
+plotBarStacked(data = data ,
+              vx = data$isla,
+              vy = data$Porc,
+              titulo = "prueba",
+              grupo = data$isla,
+              flip = T)
 

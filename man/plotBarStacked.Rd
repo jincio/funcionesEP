@@ -9,16 +9,16 @@ data      = survey,
 vx        = survey$variable1,
 vy        = survey$variable2,
 titulo    = "Title of the graphic",
-grupo     = NULL,
+grupo     = survey$group,
 filp      = FALSE
 )
 }
 \arguments{
 \item{data}{{The data to be displayed in this layer}}
 
-\item{vx}{{Variable in x axis}}
+\item{vx}{{Variable in x axis. Type variable: character}}
 
-\item{vy}{{Variable in y axis}}
+\item{vy}{{Variable in y axis. Contains the proportions from vx}}
 
 \item{titulo}{{The title of the layer}}
 
