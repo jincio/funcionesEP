@@ -1,15 +1,24 @@
-#' plotlineVoting
+#' plotLineVoting
 #'
-#' @title plotlineVoting
+#' @title plotLineVoting
 #'
 #' @description A graphic to analyze time evolution of approval ratings
 #'
 #' @param data   {The data to be displayed in this layer}
-#' @param vx     {Variable in the x-axis. Contains information about survey)
+#' @param vx     {Variable in the x-axis. Contains information about survey}
 #' @param vy     {Variable in the y-axis. Contains information about responses}
 #' @param grupo  {The grouping variable}
 #' @param dates  {Date information}
 #' @param titulo {The title of the layer}
+#'
+#' @usage plotLineVoting(
+#' data      = survey,
+#' vx        = survey$variable1,
+#' vy        = survey$variable2,
+#' grupo     = survey$group,
+#' dates     = survey$date,
+#' title     = "Title of the graphic"
+#' )
 #'
 #' @return
 #' @export

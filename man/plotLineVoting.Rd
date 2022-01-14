@@ -2,12 +2,21 @@
 % Please edit documentation in R/plotLineVoting.R
 \name{plotLineVoting}
 \alias{plotLineVoting}
-\title{plotlineVoting}
+\title{plotLineVoting}
 \usage{
-plotLineVoting(data, vx, vy, grupo, dates, titulo)
+plotLineVoting(
+data      = survey,
+vx        = survey$variable1,
+vy        = survey$variable2,
+grupo     = survey$group,
+dates     = survey$date,
+title     = "Title of the graphic"
+)
 }
 \arguments{
 \item{data}{{The data to be displayed in this layer}}
+
+\item{vx}{{Variable in the x-axis. Contains information about survey}}
 
 \item{vy}{{Variable in the y-axis. Contains information about responses}}
 
@@ -24,7 +33,7 @@ plotLineVoting(data, vx, vy, grupo, dates, titulo)
 A graphic to analyze time evolution of approval ratings
 }
 \details{
-plotlineVoting
+plotLineVoting
 }
 \examples{
 

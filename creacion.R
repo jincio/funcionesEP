@@ -23,7 +23,7 @@ usethis::use_git()
 #devtools::ins
 
 
-?funcionesEP::plotBar()
+?funcionesEP::plotLineVoting()
 
 library(tidyverse)
 library(datos)
