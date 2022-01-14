@@ -7,7 +7,7 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("plotBarStacked")
+usethis::use_r("plotBarVoting")
 devtools::document()
 # devtools::check()
 # usethis::use_mit_license()
@@ -24,7 +24,7 @@ usethis::use_git()
 
 
 
-?funcionesEP::plotBarUnsort()
+?funcionesEP::plotBarStacked()
 
 
 
