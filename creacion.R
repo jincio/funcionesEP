@@ -7,7 +7,7 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("plotLineVoting")
+usethis::use_r("vote")
 devtools::document()
 # devtools::check()
 # usethis::use_mit_license()
