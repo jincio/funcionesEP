@@ -7,9 +7,10 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("barVote")
+usethis::use_r("dateSurvey")
 devtools::document()
-# devtools::check()
+#
+devtools::check()
 # usethis::use_mit_license()
 usethis::use_package("tidyverse", "Suggests")
 
@@ -25,6 +26,9 @@ usethis::use_git()
 
 ?funcionesEP::vote()
 
+
+
+# Prueba ----
 library(tidyverse)
 library(datos)
 pinguinos
