@@ -7,7 +7,7 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("vote")
+usethis::use_r("barVote")
 devtools::document()
 # devtools::check()
 # usethis::use_mit_license()
@@ -23,7 +23,7 @@ usethis::use_git()
 #devtools::ins
 
 
-?funcionesEP::plotLineVoting()
+?funcionesEP::vote()
 
 library(tidyverse)
 library(datos)
