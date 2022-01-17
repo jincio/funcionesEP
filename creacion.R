@@ -7,10 +7,9 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("dateSurvey")
+usethis::use_r("longtable")
 devtools::document()
-#
-devtools::check()
+# devtools::check()
 # usethis::use_mit_license()
 usethis::use_package("tidyverse", "Suggests")
 
