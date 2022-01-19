@@ -7,7 +7,7 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("statsNotFin")
+usethis::use_r("plotFreq")
 devtools::document()
 # devtools::check()
 # usethis::use_mit_license()
