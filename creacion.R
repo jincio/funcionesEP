@@ -7,7 +7,7 @@ library(funcionesEP) # cargar paquete
 
 create("funcionesEP")
 
-usethis::use_r("longtable")
+usethis::use_r("statsNotFin")
 devtools::document()
 # devtools::check()
 # usethis::use_mit_license()
