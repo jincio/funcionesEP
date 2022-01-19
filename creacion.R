@@ -22,37 +22,6 @@ usethis::use_git()
 #                    auth_token = "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")
 #devtools::ins
 
+?funcionesEP::plotFreq()
 
-?funcionesEP::vote()
-
-
-
-# Prueba ----
-library(tidyverse)
-library(datos)
-pinguinos
-
-data <- pinguinos %>%
-  count(isla) %>%
-  mutate(Porc = n/sum(n)*100) %>%
-  mutate(Porc = round(Porc,2))
-
-plotBar(data = data ,
-        vx = data$isla,
-        vy = data$Porc,
-        titulo = "prueba",
-        flip = T)
-
-plotBarUnsort(data = data ,
-              vx = data$isla,
-              vy = data$Porc,
-              titulo = "prueba",
-              flip = T)
-
-plotBarStacked(data = data ,
-              vx = data$isla,
-              vy = data$Porc,
-              titulo = "prueba",
-              grupo = data$isla,
-              flip = T)
 
